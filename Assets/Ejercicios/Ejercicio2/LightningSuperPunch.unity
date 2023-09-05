@@ -207,7 +207,7 @@ PlayableDirector:
   - key: {fileID: 630188052345291317, guid: edac822d0d9223e4991062a034396c0f, type: 2}
     value: {fileID: 0}
   - key: {fileID: 630188052345291317, guid: caf497707384b0443b9a226c3a6835a1, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 2419855639404868458}
   m_ExposedReferences:
     m_References:
     - 473e8b331dfd57c4faf1ae18088b2df4: {fileID: 0}
@@ -227,72 +227,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &471310795
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 471310797}
-  - component: {fileID: 471310796}
-  m_Layer: 0
-  m_Name: Reflection Probe
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!215 &471310796
-ReflectionProbe:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471310795}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Type: 0
-  m_Mode: 0
-  m_RefreshMode: 0
-  m_TimeSlicingMode: 0
-  m_Resolution: 128
-  m_UpdateFrequency: 0
-  m_BoxSize: {x: 10, y: 10, z: 10}
-  m_BoxOffset: {x: 0, y: 0, z: 0}
-  m_NearClip: 0.3
-  m_FarClip: 1000
-  m_ShadowDistance: 100
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IntensityMultiplier: 1
-  m_BlendDistance: 1
-  m_HDR: 1
-  m_BoxProjection: 0
-  m_RenderDynamicObjects: 0
-  m_UseOcclusionCulling: 1
-  m_Importance: 1
-  m_CustomBakedTexture: {fileID: 0}
---- !u!4 &471310797
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471310795}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.06978184, y: 0.9771286, z: -1.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &673799892
+--- !u!1001 &389991575
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -301,7 +236,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1844316128766979241, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
       propertyPath: m_Name
-      value: SingleParticleStatic (1)
+      value: SingleParticleStaticBlur
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844316128766979241, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2125447371109402947, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
       propertyPath: m_RootOrder
@@ -353,7 +292,7 @@ PrefabInstance:
       objectReference: {fileID: 150581138598605843, guid: 72a708163175e6a49a769a8c0fdcc04e, type: 3}
     - target: {fileID: 2539766398240200290, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
       propertyPath: m_Flip.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2539766398240200290, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
       propertyPath: m_Flip.z
@@ -394,7 +333,11 @@ PrefabInstance:
     - target: {fileID: 2539766398240200290, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 07fc4a45406682f43a73862d91a0239b, type: 2}
+      objectReference: {fileID: 2100000, guid: b8a87dabf2e44964b8e9bccd31312900, type: 2}
+    - target: {fileID: 2539766398240200290, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2539766398240200290, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
       propertyPath: m_VertexStreams.Array.data[1]
       value: 3
@@ -417,6 +360,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7570121126233790114, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
       propertyPath: EmissionModule.m_BurstCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570121126233790114, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
+      propertyPath: InitialModule.startSize.scalar
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7570121126233790114, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
@@ -545,6 +492,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
+--- !u!1 &471310795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 471310797}
+  - component: {fileID: 471310796}
+  m_Layer: 0
+  m_Name: Reflection Probe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!215 &471310796
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471310795}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10, y: 10, z: 10}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
+--- !u!4 &471310797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471310795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.06978184, y: 0.9771286, z: -1.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,6 +776,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 07fc4a45406682f43a73862d91a0239b, type: 2}
     - target: {fileID: 2539766398240200290, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539766398240200290, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
       propertyPath: m_VertexStreams.Array.data[1]
       value: 3
       objectReference: {fileID: 0}
@@ -777,6 +793,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7570121126233790114, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
       propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570121126233790114, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
+      propertyPath: CustomDataModule.enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7570121126233790114, guid: 9b863b4e6f0348244bd185c01ac6aa5a, type: 3}
@@ -2082,7 +2102,13 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'mixamorig:LeftFoot'\n\tTransform 'mixamorig:LeftHandThumb2'\n\tTransform
+    'mixamorig:LeftHandIndex1'\n\tTransform 'mixamorig:LeftHandPinky2'\n\tTransform
+    'mixamorig:RightHandRing2'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
+    'mixamorig:LeftHandThumb3'\n\tTransform 'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tand
+    more ..."
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
