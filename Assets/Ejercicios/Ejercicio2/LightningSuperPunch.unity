@@ -236,7 +236,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &96053833
 GameObject:
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 96053836}
   - component: {fileID: 96053835}
   m_Layer: 0
-  m_Name: New VFX
+  m_Name: LaserFinal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -320,14 +320,17 @@ VisualEffect:
   m_GameObject: {fileID: 96053833}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: e17d40ea4f290d34f903d066956599c1, type: 3}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
+  m_InitialEventName: 
+  m_InitialEventNameOverriden: 1
   m_StartSeed: 0
   m_ResetSeedOnPlay: 1
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 0.4
+        m_Name: Duration
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -413,7 +416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!320 &356422770
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -1446,14 +1449,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134981936}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.089, z: 0.879}
+  m_LocalRotation: {x: -0.54547113, y: -0.4064948, z: -0.32838976, w: 0.65527356}
+  m_LocalPosition: {x: -0.175, y: 0.597, z: 0.1808}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 96053834}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 2574408088597729790}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1148570318
 GameObject:
@@ -2634,6 +2637,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6011398004279556947}
+  - {fileID: 1134981937}
   m_Father: {fileID: 1351982128524457830}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9460,6 +9464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   superPunch: {fileID: 0}
+  finalLaser: {fileID: 96053836}
 --- !u!4 &8982035781728103013
 Transform:
   m_ObjectHideFlags: 0
