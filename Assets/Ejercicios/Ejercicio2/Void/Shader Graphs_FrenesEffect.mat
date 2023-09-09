@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_FrenesEffect
-  m_Shader: {fileID: -6465566751694194690, guid: c6ca264412aaff643854d7d1bc867d23, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 78a6cdecd8b208647aff68ce53704b8f, type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
