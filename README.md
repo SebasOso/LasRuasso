@@ -4,6 +4,7 @@
 ## DANIEL RUA MONTAÑO:
 ### LINK: https://youtu.be/_qDSPCZdeBg
 ## EJERCICIO 2:
+### Link: https://youtu.be/Gem0Z_4kgXc
 ### TimeLine:
 ![](Images/TimeLine01.png)
 ![](Images/TimeLine02.png)
