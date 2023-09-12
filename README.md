@@ -12,4 +12,4 @@
 ### Jerarquia:
 ![](Images/Jerar.png)
 ### Referencias en escala de grises:
-![](Images/Comparacion.png)
+![](Images/Compa.png)
