@@ -6132,7 +6132,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.5
+      scalar: 4.97
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -11003,7 +11003,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.68
+      scalar: 1.37
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -23616,7 +23616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a2cba14a25c0cb49836633741d2cc29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  superPunch: {fileID: 0}
+  charge: {fileID: 1809253682}
   NucleoVFX: {fileID: 341166125}
   finalLaser: {fileID: 96053836}
 --- !u!4 &8982035781728103013

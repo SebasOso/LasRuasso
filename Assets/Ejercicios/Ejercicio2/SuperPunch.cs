@@ -5,12 +5,12 @@ using UnityEngine.VFX;
 
 public class SuperPunch : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem superPunch;
+    [SerializeField] private ParticleSystem charge;
     [SerializeField] private ParticleSystem NucleoVFX;
     [SerializeField] private VisualEffect finalLaser;
-    public void PlayPunch()
+    public void PlayCharge()
     {
-        superPunch.Play();
+        charge.Play();
     }
     public void PlayLaser()
     {
