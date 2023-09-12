@@ -13,3 +13,10 @@
 ![](Images/Jerar.png)
 ### Referencias en escala de grises:
 ![](Images/Compa.png)
+### Mas Referencias:
+![](Images/Refe.png)
+### Valores:
+![](Images/Color1.png)
+![](Images/Color2.png)
+![](Images/Color3.png)
+![](Images/Color4.png)
