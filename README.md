@@ -11,3 +11,5 @@
 ![](Images/TimeLine04.png)
 ### Jerarquia:
 ![](Images/Jerar.png)
+### Referencias en escala de grises:
+![](Images/Comparacion.png)
