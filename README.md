@@ -21,3 +21,14 @@
 ![](Images/Color2.png)
 ![](Images/Color3.png)
 ![](Images/Color4.png)
+
+# Shaders
+## SEBASTIAN OSORIO ARANGO (DISTORSION):
+### REFRACTION:
+### SHADER:
+![](Images/Refraction.jpg)
+### VIDEO: https://youtu.be/JWPzb9KqE0U
+### SMOKE:
+### SHADER:
+![](Images/Smoke.png)
+### VIDEO: https://youtu.be/t12YQZckBi8
