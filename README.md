@@ -26,9 +26,9 @@
 ## SEBASTIAN OSORIO ARANGO (DISTORSION):
 ### REFRACTION:
 ### SHADER:
-![](Images/Refraction.jpg)
+![](Images/ShadersDistorsion/Refraction.jpg)
 ### VIDEO: https://youtu.be/JWPzb9KqE0U
 ### SMOKE:
 ### SHADER:
-![](Images/Smoke.png)
+![](Images/ShadersDistorsion/Smoke.png)
 ### VIDEO: https://youtu.be/t12YQZckBi8
