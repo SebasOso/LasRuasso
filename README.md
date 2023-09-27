@@ -47,5 +47,8 @@
 ![Procedural_Mask](https://github.com/SebasOso/LasRuasso/assets/110804134/cfe2ee3f-21cb-42d4-9d6b-6d3fcc967b8b)
 ### MULTICHANNEL MASK
 ![image](https://github.com/SebasOso/LasRuasso/assets/110804134/e58f37aa-1a14-4175-9bd0-fe7783b8be07)
+### VIDEO
+![2023-09-26 22-36-40 (1)](https://github.com/SebasOso/LasRuasso/assets/110804134/925d2c17-1595-4308-809d-1a92dce2b889)
+
 
 
