@@ -144,13 +144,13 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Blue: {r: 0.14987625, g: 0.7924528, b: 0.12260585, a: 0}
+    - _Blue: {r: 0.20784314, g: 0.63647634, b: 0.6431373, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color_BlueChannel: {r: 0, g: 0, b: 1, a: 0}
     - _Color_GreenChannel: {r: 0, g: 1, b: 0.08545012, a: 0}
     - _Color_RedChannel: {r: 1, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Green: {r: 0.1701317, g: 0.26771957, b: 0.509434, a: 0}
-    - _Red: {r: 0.4528302, g: 0.25802776, b: 0.30691937, a: 0}
+    - _Green: {r: 0.4077245, g: 0.2745098, b: 0.7176471, a: 0}
+    - _Red: {r: 0.51757747, g: 0.5647059, b: 0.3137255, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
