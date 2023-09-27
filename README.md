@@ -35,7 +35,7 @@
 ### DISSOLVE SMOOTH:
 ### SHADER:
 ![](Images/ShadersDistorsion/Disolve.png)
-### VIDEO: https://youtu.be/t12YQZckBi8
+### VIDEO: https://youtu.be/XjoK3UeXSV8
 ### DISSOLVE TEXTURE:
 ### SHADER:
 ![](Images/ShadersDistorsion/DisolveTex.png)
