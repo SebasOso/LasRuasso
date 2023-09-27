@@ -41,8 +41,11 @@
 ![](Images/ShadersDistorsion/DisolveTex.png)
 ### VIDEO: https://youtu.be/m9xC4ZWp8Q8
 ## DANIEL RUA MONTAÑO (MASK):
-### MULTICHANNEL MASK
+### PROCEDURAL MASK
 ![image](https://github.com/SebasOso/LasRuasso/assets/110804134/ae45d589-02ae-4d8b-8a56-019be7edd673)
 ### VIDEO:
 ![Procedural_Mask](https://github.com/SebasOso/LasRuasso/assets/110804134/cfe2ee3f-21cb-42d4-9d6b-6d3fcc967b8b)
+### MULTICHANNEL MASK
+![image](https://github.com/SebasOso/LasRuasso/assets/110804134/e58f37aa-1a14-4175-9bd0-fe7783b8be07)
+
 
