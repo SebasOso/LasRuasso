@@ -32,3 +32,11 @@
 ### SHADER:
 ![](Images/ShadersDistorsion/Smoke.png)
 ### VIDEO: https://youtu.be/t12YQZckBi8
+### DISSOLVE SMOOTH:
+### SHADER:
+![](Images/ShadersDistorsion/Disolve.png)
+### VIDEO: https://youtu.be/t12YQZckBi8
+### DISSOLVE TEXTURE:
+### SHADER:
+![](Images/ShadersDistorsion/DisolveTex.png)
+### VIDEO: https://youtu.be/m9xC4ZWp8Q8
