@@ -55,7 +55,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _BorderColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BorderColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
     - _Color: {r: 0.17590779, g: 0.5566038, b: 0.5172214, a: 1}
     - _DistorsionSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _FresnelSmoothStep: {r: 0.7, g: 0.31, b: 0, a: 0}
