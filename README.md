@@ -54,7 +54,7 @@
 ## SHADER:
 ![](Images/WaterShader.png)
 ### MOVIMIENTO OLAS:
-![](Images/MovimientoOlas.png)
+![](Images/MovimentoOlas.png)
 ### REFRACCIÓN AGUA Y MOVIMIENTO
 ![](Images/DistorsionAgua.png)
 ### ESPUMA DE OBJETOS
