@@ -6595,7 +6595,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "b30eb4a908a7420c9869e22373624a83",
-    "m_Title": "Depth Color",
+    "m_Title": "CONTROLA LA PROFUNDIDAD DEL COLOR",
     "m_Position": {
         "x": 1567.1998291015625,
         "y": -325.60003662109377
@@ -7440,7 +7440,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "c6ea786f47084d438205cfc49e41c952",
-    "m_Title": "Wave movement",
+    "m_Title": "CONTROLA EL MOVIMIENTO DE LAS OLAS",
     "m_Position": {
         "x": -138.40000915527345,
         "y": -2672.000244140625
