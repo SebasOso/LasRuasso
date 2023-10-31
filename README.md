@@ -65,5 +65,10 @@
 ![](Images/ColorProfundo.png)
 ## LINK:
 https://youtu.be/JJICTa3xV4o
+## EJERCICIO 6:
 
+#LAURA VELÁSQUEZ BOTERO
+## LINK:
+https://youtu.be/GycMCDEvxTE
+https://youtu.be/0kEJuWcYH48
 
