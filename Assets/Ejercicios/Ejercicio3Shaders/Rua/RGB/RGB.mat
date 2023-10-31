@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -22,6 +22,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: RGB
   m_Shader: {fileID: -6465566751694194690, guid: 051371528a4a06f48a5d21fb87140073, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -30,6 +32,7 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -81,6 +84,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 25ba1a96e73e7eb449511ae17f97e54e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3ac803fc76b64b8c91b11705d8ba880e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 25ba1a96e73e7eb449511ae17f97e54e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_71e8d7b572f54281a7ac09a6dc162267_Texture_1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -89,7 +96,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 7245a0c62885cb94d970b01666065e5b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_877bf00a2522426dbd39ee0c0d1f8d59_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 7245a0c62885cb94d970b01666065e5b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_d9b8d588db854aa882486cbfcc520116_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 0e5aca5bb7997d940af25e6823e7b5b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d9b8d588db854aa882486cbfcc520116_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 0e5aca5bb7997d940af25e6823e7b5b9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
