@@ -76,5 +76,5 @@ https://youtu.be/0kEJuWcYH48
 ## CHROMATIC ABERRATION
 ## LINK: https://youtu.be/_vTlU4EP3cI
 ## GAUSS
-## LINK: 
+## LINK: https://youtu.be/PcUoUZl-r-Q
 
