@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GaussMat
-  m_Shader: {fileID: -6465566751694194690, guid: 09f566ea63268d643aa62b4848d6765b, type: 3}
+  m_Name: Aberracion
+  m_Shader: {fileID: -6465566751694194690, guid: 55097050f6013494ea0277868ec57a84, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,10 +23,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BlitTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -41,9 +37,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AppertureSmoothness: 0
-    - _AppertureStart: 0
-    - _FocalDistance: 0
-    - _PixelOffSet: 0
-    m_Colors: []
+    - _AbsolutePixelOffset: 26.12
+    m_Colors:
+    - _RelativeChannelOffset: {r: 0.92, g: 0.29, b: 1.47, a: 0}
   m_BuildTextureStacks: []

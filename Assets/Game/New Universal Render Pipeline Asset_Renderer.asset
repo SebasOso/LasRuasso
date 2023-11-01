@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
   m_Name: OsoChromatic
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   passMaterial: {fileID: 2100000, guid: 38e5022febb23594a831daee5cacc26d, type: 2}
   injectionPoint: 600
   requirements: 4
@@ -93,10 +93,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
-  m_Name: FullScreenPassRendererFeature
+  m_Name: Rua
   m_EditorClassIdentifier: 
-  m_Active: 0
-  passMaterial: {fileID: 2100000, guid: 9eda0361f765e174d88720f52e7d8d03, type: 2}
+  m_Active: 1
+  passMaterial: {fileID: 2100000, guid: dfca491c95bebab4fab2845a7c12dff3, type: 2}
   injectionPoint: 600
   requirements: 4
   passIndex: 0
