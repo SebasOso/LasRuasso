@@ -72,3 +72,9 @@ https://youtu.be/JJICTa3xV4o
 https://youtu.be/GycMCDEvxTE
 https://youtu.be/0kEJuWcYH48
 
+# SEBASTIAN OSORIO ARANGO
+## CHROMATIC ABERRATION
+## LINK: https://youtu.be/_vTlU4EP3cI
+## GAUSS
+## LINK: 
+
