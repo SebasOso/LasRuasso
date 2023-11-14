@@ -41,9 +41,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+<<<<<<< Updated upstream
     - _AppertureSmoothness: 0
     - _AppertureStart: 0
     - _FocalDistance: 0
     - _PixelOffSet: 0
+=======
+    - _AppertureSmoothness: 8.62
+    - _AppertureStart: -0.66
+    - _FocalDistance: 2.97
+    - _PixelOffSet: 5.55
+>>>>>>> Stashed changes
     m_Colors: []
   m_BuildTextureStacks: []
