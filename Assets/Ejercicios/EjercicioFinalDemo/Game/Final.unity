@@ -25592,6 +25592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e158a164fe4605458ef8f6657e47c0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gaussMat: {fileID: 2100000, guid: adca710a612877045af9b0805678bfad, type: 2}
   tornadoPrefab: {fileID: 8009159375727083009, guid: 4a19de7e56ad3b246ab2e9b425aca93a, type: 3}
   tornadoSpawnPosition: {fileID: 1597543567}
 --- !u!1 &6710733935998507265

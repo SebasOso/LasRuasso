@@ -41,9 +41,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AppertureSmoothness: 1.5
-    - _AppertureStart: 1.41
-    - _FocalDistance: 0.69
-    - _PixelOffSet: -0.42
+    - _AppertureSmoothness: 0
+    - _AppertureStart: 0
+    - _FocalDistance: 0
+    - _PixelOffSet: 0
     m_Colors: []
   m_BuildTextureStacks: []
