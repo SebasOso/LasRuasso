@@ -83,3 +83,10 @@ https://youtu.be/0kEJuWcYH48
 ![2023-11-01-00-35-32](https://github.com/SebasOso/LasRuasso/assets/110804134/ffb4b551-801e-480c-9ecc-924d33a3d3b1)
 ## GAUSS
 ![2023-11-01-00-34-10](https://github.com/SebasOso/LasRuasso/assets/110804134/63f27406-0616-427b-987b-133d1db1ad98)
+
+# FINAL
+## REFERENCES:
+### TORNADO FROM LOL WITH THUNDERS:
+![](Images/Final/Tornado.png)
+### BLUR EFFECT LIKE A DISASTER FROM SKYRIM:
+![](Images/Final/Blur.png)
