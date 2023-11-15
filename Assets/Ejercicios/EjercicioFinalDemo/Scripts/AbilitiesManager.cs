@@ -8,6 +8,7 @@ public class AbilitiesManager : MonoBehaviour
 {
     [SerializeField] private GameObject tornadoPrefab;
     private InputReader inputReader;
+    [SerializeField] private Transform tornadoSpawnPosition;
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class AbilitiesManager : MonoBehaviour
     public void CastTornado()
     {
         print("TORNADO");
-        GameObject tornado = Instantiate(tornadoPrefab, transform.position, Quaternion.Euler(new Vector3(0,0,0)));
+        GameObject tornado = Instantiate(tornadoPrefab, tornadoSpawnPosition.position, Quaternion.Euler(new Vector3(0,0,0)));
         
         StartCoroutine(Tornado(tornado));
     }
