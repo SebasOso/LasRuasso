@@ -26,7 +26,6 @@ public class ColorChanger : MonoBehaviour
 
         colorToChangeFireBall = new Color(redSliderFireBall.value, greenSliderFireBall.value, blueSliderFireBall.value);
         meshRendererFireBall.material.color = colorToChangeFireBall; 
-        materialEffectFireBall.SetColor("_Color01", colorToChangeFireBall); //ACA USTED COGE LA REFERENCIA DE SU PROPIEDAD EN EL SHADER
-        materialEffectFireBall.SetColor("_Color02", colorToChangeFireBall); //ACA USTED COGE LA REFERENCIA DE SU PROPIEDAD EN EL SHADER
+        materialEffectFireBall.SetColor("_Color", colorToChangeFireBall); //ACA USTED COGE LA REFERENCIA DE SU PROPIEDAD EN EL SHADER
     }
 }

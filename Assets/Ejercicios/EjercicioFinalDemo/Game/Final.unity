@@ -503,6 +503,10 @@ PrefabInstance:
       propertyPath: m_RenderAlignment
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4236137668609750038, guid: d06886484da04d34c864d44192a1b086, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8aa3211fdc4d7df46823a7dc71935f0d, type: 2}
     - target: {fileID: 7906124612176550509, guid: d06886484da04d34c864d44192a1b086, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.39012
@@ -561,7 +565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7945306029945002224, guid: d06886484da04d34c864d44192a1b086, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5305,7 +5309,7 @@ GameObject:
   - component: {fileID: 2105008534}
   - component: {fileID: 2105008533}
   m_Layer: 5
-  m_Name: WaterLaser
+  m_Name: FireBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5350,7 +5354,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Change color of the water laser:'
+  m_text: 'Change color of the fire ball:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29572,7 +29576,7 @@ MonoBehaviour:
   meshRenderer: {fileID: 1673710781}
   materialEffect: {fileID: 2100000, guid: b189da10a8bf6b94e88550a8acae85b4, type: 2}
   meshRendererFireBall: {fileID: 2086318098}
-  materialEffectFireBall: {fileID: 0}
+  materialEffectFireBall: {fileID: 2100000, guid: 8aa3211fdc4d7df46823a7dc71935f0d, type: 2}
   colorToChangeWaterLaser: {r: 0, g: 0, b: 0, a: 0}
   colorToChangeFireBall: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &6710733935998507265

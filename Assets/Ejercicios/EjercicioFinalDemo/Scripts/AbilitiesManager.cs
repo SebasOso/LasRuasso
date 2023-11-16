@@ -14,6 +14,7 @@ public class AbilitiesManager : MonoBehaviour
     [SerializeField] private Transform tornadoSpawnPosition;
     void Start()
     {
+        gaussMat.SetFloat("_PixelOffSet", 0f);
         inputReader = GetComponent<InputReader>();
         inputReader.Tornado += TornadoAnim;
         inputReader.WaterLaser += WaterLaserAnim;
@@ -87,7 +88,7 @@ public class AbilitiesManager : MonoBehaviour
     {
         float initialValue = 9f;
         float targetValue = 0f;
-        int steps = 1000;
+        int steps = 500;
         float stepValue = (targetValue - initialValue) / steps;
         for (int i = 0; i <= steps; i++)
         {
