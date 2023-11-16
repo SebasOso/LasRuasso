@@ -44,6 +44,6 @@ Material:
     - _AppertureSmoothness: 0
     - _AppertureStart: 0
     - _FocalDistance: 0
-    - _PixelOffSet: 0
+    - _PixelOffSet: 2.3669999
     m_Colors: []
   m_BuildTextureStacks: []

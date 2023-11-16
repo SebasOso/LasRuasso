@@ -7,7 +7,7 @@ public class PlayerWaterLaserState : PlayerBaseState
     private readonly int WaterLaserHash = Animator.StringToHash("WaterLaser");
     private readonly int LocomotionSpeed = Animator.StringToHash("speed");
     private const float CrossFadeDuration = 0.1f;
-    private float duration = 1f;
+    private float duration = 5f;
     public PlayerWaterLaserState(PlayerStateMachine stateMachine) : base(stateMachine)
     {
     }
