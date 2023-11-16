@@ -28,6 +28,10 @@ public class PlayerFreeLookState : PlayerBaseState
         {
             stateMachine.SwitchState(new PlayerWaterLaserState(stateMachine));
         }
+        if(stateMachine.IsFireBall)
+        {
+            stateMachine.SwitchState(new PlayerFireBallState(stateMachine));
+        }
     }
 
     public override void Exit()

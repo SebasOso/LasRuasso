@@ -8,6 +8,8 @@ using UnityEngine.InputSystem;
 public class PlayerStateMachine : StateMachine
 {
     [field: SerializeField] 
+    public bool IsFireBall {get;  set;}
+    [field: SerializeField] 
     public bool IsTornado {get;  set;}
     [field: SerializeField] 
     public bool IsWaterLaser {get;  set;}

@@ -44,6 +44,15 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""FireBall"",
+                    ""type"": ""Button"",
+                    ""id"": ""7f7d9de9-929a-4a74-b986-b67782fb79ec"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -66,6 +75,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard & Mouse"",
                     ""action"": ""WaterLaser"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9cfc7989-aa5d-42de-96e1-f3f77d479635"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard & Mouse"",
+                    ""action"": ""FireBall"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -95,6 +115,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Tornado = m_Player.FindAction("Tornado", throwIfNotFound: true);
         m_Player_WaterLaser = m_Player.FindAction("WaterLaser", throwIfNotFound: true);
+        m_Player_FireBall = m_Player.FindAction("FireBall", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -158,12 +179,14 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Tornado;
     private readonly InputAction m_Player_WaterLaser;
+    private readonly InputAction m_Player_FireBall;
     public struct PlayerActions
     {
         private @Controls m_Wrapper;
         public PlayerActions(@Controls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Tornado => m_Wrapper.m_Player_Tornado;
         public InputAction @WaterLaser => m_Wrapper.m_Player_WaterLaser;
+        public InputAction @FireBall => m_Wrapper.m_Player_FireBall;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -179,6 +202,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @WaterLaser.started += instance.OnWaterLaser;
             @WaterLaser.performed += instance.OnWaterLaser;
             @WaterLaser.canceled += instance.OnWaterLaser;
+            @FireBall.started += instance.OnFireBall;
+            @FireBall.performed += instance.OnFireBall;
+            @FireBall.canceled += instance.OnFireBall;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -189,6 +215,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @WaterLaser.started -= instance.OnWaterLaser;
             @WaterLaser.performed -= instance.OnWaterLaser;
             @WaterLaser.canceled -= instance.OnWaterLaser;
+            @FireBall.started -= instance.OnFireBall;
+            @FireBall.performed -= instance.OnFireBall;
+            @FireBall.canceled -= instance.OnFireBall;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -219,5 +248,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     {
         void OnTornado(InputAction.CallbackContext context);
         void OnWaterLaser(InputAction.CallbackContext context);
+        void OnFireBall(InputAction.CallbackContext context);
     }
 }

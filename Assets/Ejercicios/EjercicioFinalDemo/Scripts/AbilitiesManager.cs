@@ -9,6 +9,7 @@ public class AbilitiesManager : MonoBehaviour
     [SerializeField] private Material gaussMat;
     [SerializeField] private GameObject tornadoPrefab;
     [SerializeField] private GameObject waterLaserPrefab;
+    [SerializeField] private GameObject fireBallPrefab;
     private InputReader inputReader;
     [SerializeField] private Transform tornadoSpawnPosition;
     void Start()
@@ -16,6 +17,7 @@ public class AbilitiesManager : MonoBehaviour
         inputReader = GetComponent<InputReader>();
         inputReader.Tornado += TornadoAnim;
         inputReader.WaterLaser += WaterLaserAnim;
+        inputReader.FireBall += FireBallAnim;
     }
     public void TornadoAnim()
     {
@@ -25,12 +27,24 @@ public class AbilitiesManager : MonoBehaviour
     {
         GetComponent<PlayerStateMachine>().IsWaterLaser = true;
     }
+    public void FireBallAnim()
+    {
+        GetComponent<PlayerStateMachine>().IsFireBall = true;
+    }
     public void CastTornado()
     {
         print("TORNADO");
         GameObject tornado = Instantiate(tornadoPrefab, tornadoSpawnPosition.position, Quaternion.Euler(new Vector3(0,0,0)));
         StartCoroutine(IncreaseGauss());
         StartCoroutine(Tornado(tornado));
+    }
+    public void CastFireBall()
+    {
+        print("FIRE BALL");
+        fireBallPrefab.SetActive(true);
+        fireBallPrefab.GetComponent<ParticleSystem>().Clear();
+        fireBallPrefab.GetComponent<ParticleSystem>().Play();
+        StartCoroutine(FireBall(fireBallPrefab));
     }
     public void CastWaterLaser()
     {
@@ -50,6 +64,12 @@ public class AbilitiesManager : MonoBehaviour
         yield return new WaitForSeconds(3f);
         inputReader.IsCasting = false;
         waterLaser.SetActive(false);
+    }
+    private IEnumerator FireBall(GameObject fireBall)
+    {
+        yield return new WaitForSeconds(5f);
+        inputReader.IsCasting = false;
+        fireBall.SetActive(false);
     }
     private IEnumerator IncreaseGauss()
     {

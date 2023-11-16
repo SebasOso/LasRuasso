@@ -8,6 +8,7 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
 {
     public event Action Tornado;
     public event Action WaterLaser;
+    public event Action FireBall;
     public bool IsCasting{get; set;}
     private Controls controls;
     private void Start() 
@@ -47,6 +48,15 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
         if(context.performed)
         {
             WaterLaser.Invoke();
+            IsCasting = true;
+        }
+    }
+    public void OnFireBall(InputAction.CallbackContext context)
+    {
+        if(IsCasting){return;}
+        if(context.performed)
+        {
+            FireBall.Invoke();
             IsCasting = true;
         }
     }
