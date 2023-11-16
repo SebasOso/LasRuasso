@@ -43,8 +43,8 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _DisolveSmoothness: 1.13
-    - _DisolveStart: 0.17
+    - _DisolveSmoothness: 2.95
+    - _DisolveStart: 0.08
     - _NoiseScale: 39.74
     - _QueueControl: 0
     - _QueueOffset: 0
