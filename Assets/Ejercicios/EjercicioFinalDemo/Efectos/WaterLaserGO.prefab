@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1399911389876188491}
   - component: {fileID: 1612363550697008585}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: WaterLaserGO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

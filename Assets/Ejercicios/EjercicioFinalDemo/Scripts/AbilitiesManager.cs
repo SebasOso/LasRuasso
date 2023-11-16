@@ -8,9 +8,10 @@ public class AbilitiesManager : MonoBehaviour
 {
     [SerializeField] private Material gaussMat;
     [SerializeField] private GameObject tornadoPrefab;
+    [SerializeField] private GameObject waterLaserPrefab;
     private InputReader inputReader;
     [SerializeField] private Transform tornadoSpawnPosition;
-
+    [SerializeField] private Transform waterLaserSpawnPosition;
     void Start()
     {
         inputReader = GetComponent<InputReader>();
@@ -32,12 +33,24 @@ public class AbilitiesManager : MonoBehaviour
         StartCoroutine(IncreaseGauss());
         StartCoroutine(Tornado(tornado));
     }
+    public void CastWaterLaser()
+    {
+        print("WATER LASER");
+        GameObject waterLaser = Instantiate(waterLaserPrefab, waterLaserSpawnPosition.position, Quaternion.Euler(new Vector3(0,0,0)));
+        StartCoroutine(WaterLaser(waterLaser));
+    }
     private IEnumerator Tornado(GameObject tornado)
     {
         yield return new WaitForSeconds(9f);
         StartCoroutine(DecreaseGauss());
         inputReader.IsCasting = false;
         Destroy(tornado);
+    }
+    private IEnumerator WaterLaser(GameObject waterLaser)
+    {
+        yield return new WaitForSeconds(9f);
+        inputReader.IsCasting = false;
+        Destroy(waterLaser);
     }
     private IEnumerator IncreaseGauss()
     {
