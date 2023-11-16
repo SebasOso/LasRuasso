@@ -24,6 +24,10 @@ public class PlayerFreeLookState : PlayerBaseState
         {
             stateMachine.SwitchState(new PlayerTornadoState(stateMachine));
         }
+        if(stateMachine.IsWaterLaser)
+        {
+            stateMachine.SwitchState(new PlayerWaterLaserState(stateMachine));
+        }
     }
 
     public override void Exit()

@@ -15,10 +15,15 @@ public class AbilitiesManager : MonoBehaviour
     {
         inputReader = GetComponent<InputReader>();
         inputReader.Tornado += TornadoAnim;
+        inputReader.WaterLaser += WaterLaserAnim;
     }
     public void TornadoAnim()
     {
         GetComponent<PlayerStateMachine>().IsTornado = true;
+    }
+    public void WaterLaserAnim()
+    {
+        GetComponent<PlayerStateMachine>().IsWaterLaser = true;
     }
     public void CastTornado()
     {

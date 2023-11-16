@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class InputReader : MonoBehaviour, Controls.IPlayerActions
 {
     public event Action Tornado;
+    public event Action WaterLaser;
     public bool IsCasting{get; set;}
     private Controls controls;
     private void Start() 
@@ -37,6 +38,15 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
         if(context.performed)
         {
             Tornado.Invoke();
+            IsCasting = true;
+        }
+    }
+    public void OnWaterLaser(InputAction.CallbackContext context)
+    {
+        if(IsCasting){return;}
+        if(context.performed)
+        {
+            WaterLaser.Invoke();
             IsCasting = true;
         }
     }

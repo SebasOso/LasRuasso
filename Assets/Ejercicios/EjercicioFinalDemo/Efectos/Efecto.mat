@@ -63,8 +63,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Color01: {r: 0.2410229, g: 0.6792453, b: 0.14994659, a: 1}
-    - _Color02: {r: 0.035294116, g: 0.5647684, b: 1, a: 1}
+    - _Color01: {r: 0.9091274, g: 0.09087219, b: 0.32883388, a: 1}
+    - _Color02: {r: 0.9091274, g: 0.09087219, b: 0.32883388, a: 1}
     - _DisolveSpeed: {r: 0.5, g: 0, b: 0, a: 0}
     - _Velocidad: {r: 1.54, g: 0, b: 0, a: 0}
     - _Velocidad_del_disolve: {r: 0.58, g: 0, b: 0, a: 0}

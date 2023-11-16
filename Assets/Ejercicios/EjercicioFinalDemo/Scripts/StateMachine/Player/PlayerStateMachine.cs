@@ -9,6 +9,8 @@ public class PlayerStateMachine : StateMachine
 {
     [field: SerializeField] 
     public bool IsTornado {get;  set;}
+    [field: SerializeField] 
+    public bool IsWaterLaser {get;  set;}
     [field: SerializeField]
     public InputReader InputReader {get; private set;}
     [field: SerializeField]

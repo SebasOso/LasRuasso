@@ -35,6 +35,15 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""WaterLaser"",
+                    ""type"": ""Button"",
+                    ""id"": ""115b6f86-6947-4655-834c-b4ae9bccb76b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -46,6 +55,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard & Mouse"",
                     ""action"": ""Tornado"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b32a9550-696e-4c66-a049-b88ce39a717c"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard & Mouse"",
+                    ""action"": ""WaterLaser"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -74,6 +94,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Tornado = m_Player.FindAction("Tornado", throwIfNotFound: true);
+        m_Player_WaterLaser = m_Player.FindAction("WaterLaser", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -136,11 +157,13 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Tornado;
+    private readonly InputAction m_Player_WaterLaser;
     public struct PlayerActions
     {
         private @Controls m_Wrapper;
         public PlayerActions(@Controls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Tornado => m_Wrapper.m_Player_Tornado;
+        public InputAction @WaterLaser => m_Wrapper.m_Player_WaterLaser;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -153,6 +176,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Tornado.started += instance.OnTornado;
             @Tornado.performed += instance.OnTornado;
             @Tornado.canceled += instance.OnTornado;
+            @WaterLaser.started += instance.OnWaterLaser;
+            @WaterLaser.performed += instance.OnWaterLaser;
+            @WaterLaser.canceled += instance.OnWaterLaser;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -160,6 +186,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Tornado.started -= instance.OnTornado;
             @Tornado.performed -= instance.OnTornado;
             @Tornado.canceled -= instance.OnTornado;
+            @WaterLaser.started -= instance.OnWaterLaser;
+            @WaterLaser.performed -= instance.OnWaterLaser;
+            @WaterLaser.canceled -= instance.OnWaterLaser;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -189,5 +218,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     public interface IPlayerActions
     {
         void OnTornado(InputAction.CallbackContext context);
+        void OnWaterLaser(InputAction.CallbackContext context);
     }
 }
