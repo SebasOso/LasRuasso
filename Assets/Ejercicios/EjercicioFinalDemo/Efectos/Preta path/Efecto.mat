@@ -59,14 +59,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _DisolveScale: 95.35
-    - _Intensidad: 35
+    - _Intensidad: -31.36
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Color01: {r: 0, g: 0, b: 0, a: 1}
     - _Color02: {r: 0, g: 0, b: 0, a: 1}
     - _DisolveSpeed: {r: 0.5, g: 0, b: 0, a: 0}
-    - _Velocidad: {r: 1.54, g: 0, b: 0, a: 0}
-    - _Velocidad_del_disolve: {r: 0.58, g: 0, b: 0, a: 0}
+    - _Velocidad: {r: -1.13, g: 0, b: 0, a: 0}
+    - _Velocidad_del_disolve: {r: -23.9, g: 0, b: 0, a: 0}
     - _main_text_speed: {r: 0.2, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
