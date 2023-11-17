@@ -1,4 +1,4 @@
-# LasRuasso
+![ezgif com-gif-maker](https://github.com/SebasOso/LasRuasso/assets/110804134/68f438f4-0550-49e4-9440-2bfa7b178c72)# LasRuasso
 ## SEBASTIAN OSORIO ARANGO EJ1:
 ### LINK: https://youtu.be/sGpyI7Oa4bU
 ## DANIEL RUA MONTAÑO:
@@ -92,5 +92,8 @@ https://youtu.be/0kEJuWcYH48
 ![](Images/Final/Blur.png)
 ### FIREBALL FROM NARUTO
 ![image](https://github.com/SebasOso/LasRuasso/assets/78050911/e498d587-a13d-4617-b266-ede8ceec2f09)
+### PRETA PATH MADARA
+![ezgif com-gif-maker](https://github.com/SebasOso/LasRuasso/assets/110804134/ca771408-4055-4818-b90f-26d46b4f1c03)
+
 ## LINK TO DOWNLOAD: 
 ### https://www.mediafire.com/file/k3i59b395u19k3q/LasRuassuaoFinal.rar/file
